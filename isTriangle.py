@@ -1,5 +1,4 @@
 # Function to find whether 3 points can form a triangle
-# This is done by me as an experiment
 
 import math
 
