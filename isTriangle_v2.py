@@ -21,7 +21,7 @@ def distance(x, y):
 
 # This function checks if the points can form a triangle
 def isTriangle(a, b, c):
-   # global ab, bc, ac
+    global ab, bc, ac
     ab = distance(a, b)
     bc = distance(b, c)
     ac = distance(a, c)
@@ -52,5 +52,8 @@ def main():
     # print(f"Length of side AB: {ab} units")
     # print(f"Length of side BC: {bc} units")   
     # print(f"Length of side AC: {ac} units")
+    # Uncomment the above 3 lines to know the length of the lines that make up the triangle
+
 
 main()
+
